@@ -35,7 +35,7 @@
 <h3 align="center">Items</h3>
 <img src="./public/images/clothes.png" alt="secretmepic"></img>
 <br>
-<h3 align="center">The user can choose where to view, add to cart, add to wishlist the item</h3>
+<h3 align="center">The user can choose whether to view, add to cart, or add to wishlist the item</h3>
 <img src="./public/images/search.png" alt="secretmepic"></img>
 <br>
 <h3 align="center">The user can choose the color and size of the item</h3>
