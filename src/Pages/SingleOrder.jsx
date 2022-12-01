@@ -28,7 +28,7 @@ const SingleOrder = () => {
                 setOrderIDdata(res.data);
                 setloading(false);
             } catch (error) {
-                console.log(error)
+             
             }
         }
         getOrderID();

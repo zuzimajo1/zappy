@@ -17,7 +17,7 @@ const Product = ({ cat, Filters, Sort }) => {
     useEffect(() => {
         const getProducts = async () => {
             try {
-                const res = await axios.get(cat ? `https://zappyclothes.herokuapp.com/api/product?category=${cat}` : `https://zappyclothes.herokuapp.com/api/product`);
+                const res = await axios.get(cat ? `https://zappyfashion.onrender.com/api/product?category=${cat}` : `https://zappyfashion.onrender.com/api/product`);
                 setproducts(res.data);
                 setloading(false);
             } catch (error) {}

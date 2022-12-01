@@ -44,7 +44,7 @@ const SingleProduct = () => {
         setSingleProductCondition(true);
         setloading(false);
       } catch (error) {
-        console.log(error);
+        
       }
     }
     getId();

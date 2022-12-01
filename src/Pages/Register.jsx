@@ -38,7 +38,7 @@ const Register = () => {
         ()=>{
           getDownloadURL(uploadTask.snapshot.ref).then((url)=>{
             const inputs = { ...Inputs, img: url, password: Password };
-            console.log(inputs);
+           
             addUser(dispatch, inputs);
           })
         }
